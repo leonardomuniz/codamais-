@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Roboto&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*NAVBAR*/
+nav {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    font-family: 'PT Mono', monospace;
+}
+
+/*LANDING PAGE*/
+#landingpage{
+    background-image: url(images/banner3.jpg);
+    position: relative;
+    height: 640px;
+    width: 100%;
+    bottom: 70px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#landingpage h1:nth-child(1){ font-size: 130px; color: white; }
+#landingpage h1:nth-child(2){ font-size: 90px; color: white; margin-top: -30px;}
+#landingpage p { font-size: 35px;color: white; margin-top:10px;}
+
+
+/*sobre*/
+
+
+/*grid*/
+
+#grid article:nth-child(1) div:nth-child(1){ background-image: url(images/foto1.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(1) div:nth-child(2){ background-image: url(images/foto2.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(1) div:nth-child(3){ background-image: url(images/foto3.jpg); position: relative; background-size: cover; }
+
+#grid article:nth-child(2) div:nth-child(1){ background-image: url(images/foto4.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(2) div:nth-child(2){ background-image: url(images/foto5.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(2) div:nth-child(3){ background-image: url(images/foto6.jpg); position: relative; background-size: cover; }
+
+#grid article:nth-child(3) div:nth-child(1){ background-image: url(images/foto7.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(3) div:nth-child(2){ background-image: url(images/foto8.jpg); position: relative; background-size: cover; }
+
+#grid article:nth-child(4) div:nth-child(1){ background-image: url(images/foto9.jpg); position: relative; background-size: cover; }
+#grid article:nth-child(4) div:nth-child(2){ background-image: url(images/foto10.jpg); position: relative; background-size: cover; }
+
+
+/*footer*/
+footer{
+    margin-top: 45px;
+}
+
+footer p,h5 {
+    color: WHITE;
+}
+
+footer li a{
+    color: white;
+    font-size: 20.5px;
+    margin-left: 20.5px;
+}
+
+footer li{
+    padding-top: 15px !important;
+}
+
+
+/*RELATOS*/
+#relatos{
+    margin-top: -33px;
+}
+
+.carousel.carousel-slider{
+    height: 500px !important;
+}
+
+#relatos .foto{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+#relatos .foto img {
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
+#relatos span{
+    font-size:35px;
+    color: #fdd835;
+}
+
+#relatos .titulo{
+    margin-top: 25px;
+}
+
+#relatos h1{
+    font-weight: bolder;
+    color:#fdd835;
+}
+#relatos h1:nth-child(1){
+    text-align: center;
+}
+
+#relatos p{
+    font-size: 17.5px;
+    font-weight: bolder;
+}
+
+/*FORMULÁRIO*/
+#formulario{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario label  {
+    color: #000;
+}
+#formulario input[type=text]:focus  {
+    color: #000;
+    border-bottom: 1px solid #4a148c ;
+    box-shadow: 0 1px 0 0 #6a1b9a;
+}
+
+#formulario input[type=email]:focus  {
+    color: #000;
+    border-bottom: 1px solid #4a148c ;
+    box-shadow: 0 1px 0 0 #6a1b9a;
+}
+
+
+
+
+/*ETC*/
+h1 {
+    font-size: 40px;
+    font-family: 'PT Mono', monospace;;
+}
+
+
+.caixa{
+    height: 300px !important;
+}
+.caixa:hover{
+    z-index: 999;
+}
+
+.caixa img{
+    position: relative;
+    height: 300px !important;
+}
+
+
+section{
+    margin-top:90px;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+
+
+/*Mobile*/
+@media (max-width: 600px) 
+{
+    .banner{
+        background-image: url(images/banner.jpg);
+        position: relative;
+        height: 440px;
+        width: 100%;
+        bottom: 70px;
+    }
+}
