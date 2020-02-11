@@ -79,7 +79,6 @@ footer li{
 
 /*RELATOS*/
 #relatos{
-    padding:44px;
     margin-top: -33px;
 }
 
@@ -113,6 +112,7 @@ footer li{
 #relatos h1{
     font-weight: bolder;
     color:#fdd835;
+    padding-top: 44px !important;
 }
 #relatos h1:nth-child(1){
     text-align: center;
