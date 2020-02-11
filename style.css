@@ -79,7 +79,7 @@ footer li{
 
 /*RELATOS*/
 #relatos{
-    padding: 44px;
+    padding: 44px !important;
     margin-top: -33px;
 }
 
